@@ -1,0 +1,17 @@
+---
+layout: blog
+---
+
+{% for post in site.posts %}
+  <article class="post-teaser">
+
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+    <h2>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <p>
+      {{ post.excerpt }}
+    </p>
+  </article>
+{% endfor %}
