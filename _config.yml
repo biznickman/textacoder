@@ -10,7 +10,7 @@ title: Text A Coder
 email: nick@textacoder.com
 description: > # this means to ignore newlines until "baseurl:"
   Learn how to become a freelance developer and hire other
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.textacoder.com" # the base hostname & protocol for your site
 twitter_username: textacoder
 permalink: /:title
