@@ -13,7 +13,7 @@ Who is Nick O'Neill? Aside from being the founder of Text A Coder, here's a list
 I was born at George Washington University in Washington, D.C. and grew up in Arlington, Virginia. Despite the political nature of the city, I still love it as a place to live.
 
 ## 2. Graduated from American University
-I then went to American University and stayed in D.C. until 2000, when I migrated out to San Francisco, California.
+I then went to American University and stayed in D.C. until 2010, when I migrated out to San Francisco, California.
 
 My mother still lives in Arlington and I go back to the D.C. area relatively frequently.
 
