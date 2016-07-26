@@ -1,3 +1,5 @@
+window.leadMagnetDismissed = false;
+
 function hideError(){
   $('#leadMagnetMessage').hide();
 }
@@ -39,13 +41,19 @@ function leadPayload(){
 // Handle scroll appearance
 $(document).ready(function(){
   $(window).scroll(function(){
-    if( $(window).scrollTop() > 800 ) {
+    if( $(window).scrollTop() > 800 && !window.leadMagnetDismissed ) {
       // Make it appear
       $('#lead-magnet-box').addClass('fade-in');
     } else {
       // Make it disappear if shown
     }
   });
+});
+
+$('#closeLeadbox').on('click', function(){
+  $('#lead-magnet-box').addClass('fade-out');
+  $('#lead-magnet-box').removeClass('fade-in');
+  window.leadMagnetDismissed = true;
 });
 
 // Handle the submission of the form
